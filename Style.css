@@ -1,0 +1,51 @@
+html{
+	background-color: #F3d2BD; /*try f7e1d3*/
+}
+h1{
+	color: #9dd0e1;
+	font-size: 60px;
+	text-shadow: 1px 1px 1px white;
+	text-align: center;
+}
+
+p{
+	font-family: 'Vollkorn';
+	font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.4;
+    word-wrap: break-word;
+    color: white;/*#3d3d3d*/
+    background: transparent;
+}
+
+/* change main to have every story represented within 
+a box, with some sort of preview as well*/
+main{
+	margin: 0 auto;
+	background-color: #9dd0e1;
+	padding: 0 20px 20px 20px;
+	border: 2px solid white;
+
+}
+/*I really just played around with this*/
+aside{
+	display: block;
+    line-height: 21px;
+    font-size: 21px;
+    color: #fff;
+    margin-left: 0;
+    padding: 12px 30px 12px 12px;
+    font-weight: bold;
+
+    color: #4db2cc;
+    text-decoration: none;
+    background-color: transparent;
+}
+/*End of Playing Around*/
+.my-class{
+
+}
+#my-id{
+
+}
+a:hover

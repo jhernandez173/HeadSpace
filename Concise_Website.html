@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Concise Website</title>
+
+	<html lang="en-US">
+	<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+	<!--meta tags are for Google SEO// very invisible-->
+	<meta charset="utf-8">
+	<meta name= "author" content="Chris Mills">
+	<meta name = "description" content="This is the more concise version of creating a professional website for the UCSD community, especially regarding concents and events">
+
+	<!--Adds icon to new tab// can they be changed/gif-->
+	<link rel="shortcut icon" type="image" href="better_robin_head.ico">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+
+	<!--Making the navigation menu-->
+	<nav>
+		<ul>
+			<li><a href = "MainPage.html">Main Page</a></li>
+			<li><a href = "Issues.html">Issues</a></li>
+			<li><a href = "About.html">About</a></li>
+			<li><a href = "Contact.html">Contact Us</a></li>
+		</ul>
+		<form>
+			<input type="search" name="q" placeholder="Search HEADSPACE">
+			<input type="submit" value="Search">
+		</form>
+	</nav>
+</head>
+
+<body>
+	<header>
+		<!--<img 
+			src="ConciseImages/ArtSvg.svg"
+			alt="SVG file of Art"/>-->
+
+<!--Learn Responsive Images-->
+	<h1><em><strong>HEADSPACE</strong></em></h1>
+		<img 
+			src="ConciseImages/Art.jpg"
+			alt="Sublime art of jello lighting"
+			title="A Boy Under Jello Lighting"/>
+	</header>
+
+
+<main>
+	<article>
+		<h2><strong>Internships</strong></h2>
+		<p>Oftentimes, most internships for undergraduates are available through popular websites such as at 
+		<a href="http://www.intern.supply/" target="_blank" 
+		title="Plethorea of Internships">Intern Supply</a>.</p>
+	</article>
+	<article>
+		<h2><strong>Disparity: The UC SeeSaw</strong></h2>
+		<p>I'm not comparing UCSD to academic institutions of a different dichotomy, as to suggest a harrowing dichotomy such as the top Ivy-Leagues or elitist private schools. What I point to is the stalemate, longboard, flagship instution: UC Berkeley. Our sister school across the state wields opportuntity unlike its UC counterparts. The overwhelming benefit of location within the Bay Area is pivotal to student-industry pipeline. I cannot attend events, much less be offered the same recruiters. Stripe does not visit UCSD, neither does YCombinator or StartUp investors. UC Berkeley has their own start-up page within their FaceBook page! A testament to how indebted this culture pervades the institution. They consistantly hold the (A)best students, (B)best teachers, (C)best opportunities. If you thought this long-heard mantra of UCSD students being the lapless rejects of Bruin and Cal were driven by reputation of namesake alone, consider the factors our school doesn't offer and what it makes of our alumni.  </p>
+	</article>
+
+<div>
+	<video width="600" height="400" autoplay muted>
+		<source src="ConciseImages/VolcomZine.mp4" type="video/mp4">
+	</video>
+	<audio autoplay>
+		<source src="ConciseImages/Cornfield Chase.mp3" type="audio/mp3">
+	</audio>
+</div>
+
+<aside>
+	<h2>Matter</h2>
+		<ul>
+			<li>Internships</li>
+			<li>Issues</li>
+			<li>Inventions</li>
+		</ul>	
+</aside>
+
+<form action="what-is-this" method="post">
+	<div>
+		<label for="name">Name</label>
+		<input type="text" id="name" name="user_name">
+	</div>
+	<div>
+		<label for="mail">E-mail:</label>
+		<input type="email" id="mail" name="user_mail">
+	</div>
+	<div>
+		<label for="invention-idea">Invention Submission</label>
+		<textarea id="invention-idea" name="user_message"></textarea>
+	</div>
+	<div class="button">
+		<button type="submit">SEND</button>
+	</div>
+	
+</form>
+
+
+	
+</main>
+
+<footer>
+<button>Change UserName</button>
+	<script src="ConciseImages/main.js"></script>
+	<p>Website by Jonathan Hernandez. All Rights Reserved</p>
+</footer>
+</body>
+</html>
